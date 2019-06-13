@@ -12,10 +12,10 @@ public class Main {
             //STEP 3: Open a connection
             System.out.println("Connecting to database...");
             conn = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/java_javacourse" +
+                    "jdbc:mysql://localhost:3306/Java_JavaCourse" +
                             "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                     "root",
-                    "");
+                    "moony#1423");
             //STEP 4: Execute a query
 
             String sql = "SELECT * FROM customer WHERE id BETWEEN ? AND ?";
